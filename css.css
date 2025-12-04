@@ -1,1 +1,94 @@
+html {
+	color: white;
+    font-family: "Sarpanch", cursive;
+}
 
+body {
+	background-color: black;
+	height: 10000px;
+}
+
+html, body {
+  	margin: 0;
+  	padding: 0;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: black;
+	width: auto;
+	background-color: white;
+	margin: 0;
+}
+
+.TopBar {
+  	position: sticky;
+  	top: 0;
+}
+
+.TopBar a {
+  	text-align: center;
+	padding: 14px 16px;
+  	text-decoration: none;
+	font-size: 21px;
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {
+    	font-size: 65px;
+	}
+
+	.TopBar a {
+		font-size: 60px;
+	}
+}
+
+.Profile-Links {
+	margin: 20px;
+}
+
+hr {
+	background-color: black;
+	height: 2px;
+	border: 0;
+}
+
+footer {
+	background-color: white;
+	color: black;
+	font-size: 25px;
+	width: auto;
+	height: 100px;
+}
+
+ul {
+	background-color: white;
+	height: auto;
+	margin: 0;
+}
+
+nav ul {
+	text-align: center;
+	width: auto;
+	font-size: 1.2em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 30px;
+	width: auto;
+}
+
+nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #ababab;
+}
+
+img {
+	border: 0;
+}
