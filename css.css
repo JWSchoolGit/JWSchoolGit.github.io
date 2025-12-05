@@ -22,6 +22,7 @@ h2 {
 	text-align: center;
 	width: auto;
 	margin: 0;
+	display: inline;
 }
 
 @media only screen and (max-width: 500px) {
