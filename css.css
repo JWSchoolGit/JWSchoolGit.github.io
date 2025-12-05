@@ -1,5 +1,4 @@
 html {
-	color: white;
     font-family: "Arimo", cursive;
 }
 
@@ -17,20 +16,7 @@ h1 {
 	text-align: center;
 	color: black;
 	width: auto;
-	background-color: white;
 	margin: 0;
-}
-
-.TopBar {
-  	position: sticky;
-  	top: 0;
-}
-
-.TopBar a {
-  	text-align: center;
-	padding: 14px 16px;
-  	text-decoration: none;
-	font-size: 21px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -43,22 +29,10 @@ h1 {
 	}
 }
 
-.Profile-Links {
-	margin: 20px;
-}
-
 hr {
 	background-color: black;
 	height: 2px;
 	border: 0;
-}
-
-footer {
-	background-color: white;
-	color: black;
-	font-size: 25px;
-	width: auto;
-	height: 100px;
 }
 
 ul {
